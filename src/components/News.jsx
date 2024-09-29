@@ -45,7 +45,7 @@ const News = ({limited}) => {
                 </Title>
                 <img
                   style={{ maxWidth: '50px' , maxHeight: '50px', objectFit: 'cover', borderRadius: '20px' }}
-                  src={news.image_url}
+                  src={news?.image_url}
                   alt="news"
                 />
               </div>
